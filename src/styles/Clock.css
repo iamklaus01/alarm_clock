@@ -1,0 +1,52 @@
+#clock{
+    width:30rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem;
+    background-color: #1D3557;
+    border-radius: 2px;
+    border: 4px solid gray;
+}
+  
+.length-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:2rem;
+}
+.length-container p{
+    font-size: 18px;
+    margin: 0 1rem;
+    padding:.5rem;
+}
+.length-container span{
+    padding:0 1.2rem;
+}
+  
+.timer-container{
+    width: 50%;
+    text-align:center;
+    border: 4px dashed #8ecae6;
+    border-radius: 1rem;
+    font-size:20px;
+    font-weight:bold;
+}
+.timer-container #time-left{
+    font-size:24px;
+}
+  
+.buttons-actions{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.fa{
+    font-size:1rem;
+    color:white;
+    padding:1rem;
+}
+.fas , .fa{
+    cursor:pointer
+}
